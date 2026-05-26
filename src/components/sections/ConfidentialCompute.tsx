@@ -1,10 +1,10 @@
 "use client";
 
-import { motion, useMotionValue, useSpring } from "framer-motion";
+import { motion, useMotionValue, useSpring, type MotionStyle } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useState, type CSSProperties, type PointerEvent } from "react";
+import { useRef, useState, type PointerEvent } from "react";
 
 import { DetailPageHeader } from "@/components/site/DetailPageHeader";
 import { Reveal } from "@/components/ui/Reveal";
@@ -448,7 +448,7 @@ function ProtectedFlowDiagram({ language }: { language: Language }) {
               top: 0,
               x: springX,
               y: springY,
-            } as CSSProperties}
+            } as MotionStyle}
           >
             <span className="cursor-ship-flame" />
             <span className="cursor-ship-flame cursor-ship-flame-secondary" />

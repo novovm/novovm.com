@@ -382,7 +382,7 @@ function InteractionOneDiagram({ language }: { language: Language }) {
               top: 0,
               x: springX,
               y: springY,
-            } as CSSProperties
+            } as unknown as CSSProperties
           }
         >
           <span className="cursor-ship-flame" />

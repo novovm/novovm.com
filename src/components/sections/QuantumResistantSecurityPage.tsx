@@ -557,7 +557,7 @@ function ProtectionLayersDiagram({ language }: { language: Language }) {
               top: 0,
               x: springX,
               y: springY,
-            } as CSSProperties}
+            } as unknown as CSSProperties}
           >
             <span className="cursor-ship-flame" />
             <span className="cursor-ship-flame cursor-ship-flame-secondary" />
