@@ -89,7 +89,7 @@ export function DownloadSection({ language }: { language: Language }) {
             </motion.a>
             <motion.a
               className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-[6px] px-5 text-sm font-medium text-muted transition-colors duration-300 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-bright sm:w-auto lg:w-full"
-              href="https://github.com/"
+              href="https://github.com/novovm/supervm"
               rel="noreferrer"
               target="_blank"
               whileHover={reduceMotion ? undefined : { y: -1 }}

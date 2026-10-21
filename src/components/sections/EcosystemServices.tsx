@@ -247,7 +247,7 @@ const tabContent: Record<TabId, TabDefinition> = {
     ],
     actions: [
       { href: "/developers", label: { en: "Read Developer Docs", zh: "阅读开发文档" } },
-      { href: "https://github.com/", label: { en: "View GitHub", zh: "查看 GitHub" } },
+      { href: "https://github.com/novovm/supervm", label: { en: "View GitHub", zh: "查看 GitHub" } },
     ],
   },
 };

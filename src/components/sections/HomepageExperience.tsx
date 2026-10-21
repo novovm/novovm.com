@@ -732,7 +732,7 @@ export function HomepageExperience({ language }: { language: Language }) {
               <Button href="/technology/developer-apis" variant="secondary">
                 {copy({ en: "API Reference", zh: "API 参考" }, language)}
               </Button>
-              <Button href="https://github.com/" variant="secondary">
+              <Button href="https://github.com/novovm/supervm" variant="secondary">
                 GitHub
               </Button>
             </div>
